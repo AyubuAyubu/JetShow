@@ -1,0 +1,39 @@
+{
+  "jets": [
+    {
+      "id": 1,
+      "name": "HAL Tejas ",
+      "price": 500000,
+      "image": "https://i.ibb.co/d6z5sXf/HAL-Tejas.jpg",
+      "info": "The HAL Tejas is an Indian fighter jet that is replacing the MiG-21, which the Indian Air Force has been using since 1964. Pilots praise the HAL Tejas for its high maneuverability. Production on the fourth-generation Indian jet fighter began recently, due to the fact that the program struggled to obtain an Operational Clearance"
+    },
+    {
+      "id": 2,
+      "name": "McDonnell Douglas F-15",
+      "price": 650000,
+      "image": "https://i.ibb.co/swKjQQX/Mc-Donnell.jpg",
+      "info": "Developed by McDonnell Douglas and later on by Boeing, the F-15 is still produced. Even though it was delivered more than 35 years ago, the F-15 is still considered a very capable fighter in the air. It still is operated by 4 countries: Israel, Japan, Saudi Arabia, and the United States"
+    },
+    {
+      "id": 3,
+      "name": "Mitsubishi X-2 Shinshin",
+      "price": 750000,
+      "image": "https://i.ibb.co/K22vnDg/Mitsubishi.jpg",
+      "info": "A unique example on the list, the Mitsubishi X-2 Shinshin is a fifth-generation… test aircraft? Yep. Even though it’s not a fighter jet in itself, the Japanese are using the X-2 as a testbed for other fighter jet technologies. The backstory of this jet is that Japan was looking to replace its fleet of current fighters"
+    },
+    {
+      "id": 4,
+      "name": "Shenyang FC-31",
+      "price": 800000,
+      "image": "https://i.ibb.co/VwpjGFY/Shenyang.jpg",
+      "info": "FC-31 or the J-31 is the second fifth-generation fighter jet that is going to be introduced into the Chinese Air Force. Although less advanced than its counterpart, the Chengdu J-20, it is still a very capable fighter jet. The exact specifications remain unclear for anyone that is outside the Chinese Military"
+    },
+    {
+      "id": 5,
+      "name": "Chengdu J-20",
+      "price": 950000,
+      "image": "https://i.ibb.co/C1s108x/Chengdu.jpg",
+      "info": "The best Chinese fighter jet, the Chengdu Aerospace Corporation introduced the J-20 in 2017. After more than 20 years of development, it first flew in 2011. There were quite a few changes to the design of the aircraft after the first flights took place, namely a new intake, new stealth coating and a new design of the vertical stabilizers."
+    }
+  ]
+}
