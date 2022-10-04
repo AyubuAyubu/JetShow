@@ -8,7 +8,7 @@ const Jets = ({ jets, removeJet }) => {
         <div className="underline"></div>
       </div>
       <div>
-        {/* we are iterating on the child which is the Tour  */}
+        {/* we are iterating on the child which is the Jet  */}
         {jets.map((jet) => {
           return <Jet key={jet.id} {...jet} removeJet={removeJet}></Jet>;
         })}

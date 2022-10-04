@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Loading from "./Loading";
-import JetList from "./JetList";
+import Loading from "../components/Loading";
+import JetList from "../components/JetList";
 
 const url = "http://localhost:3002/jets";
 function AppJet() {

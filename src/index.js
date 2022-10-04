@@ -1,12 +1,16 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import "./styles/index.css";
-import OurJet from "./components/OurJet";
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <OurJet />
-  </React.StrictMode>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
+
+
+
