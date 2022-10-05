@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jet-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    display: table-cell;
+    margin-bottom: 10px;
+}
