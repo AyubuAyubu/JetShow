@@ -9,8 +9,7 @@ function AddJetForm() {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
 
-  //part 2
-  //set value using useState and target the input
+  
   const handleInfoChange = (event) => {
     setInfo(event.target.value);
   };
