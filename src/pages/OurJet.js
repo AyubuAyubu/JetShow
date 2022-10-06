@@ -15,7 +15,7 @@ function AppJet() {
     setJet(newJet);
   };
 
-  // so that it returns loading when true
+  // Fetch jet method created that it returns loading when true
   const fetchJets = async () => {
     setLoading(true);
     try {
