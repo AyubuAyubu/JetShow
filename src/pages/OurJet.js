@@ -4,6 +4,7 @@ import JetList from "../components/JetList";
 
 const url = "http://localhost:3002/jets";
 function AppJet() {
+  //useState set
   const [jets, setJet] = useState([]);
   const [loading, setLoading] = useState(true);
 
