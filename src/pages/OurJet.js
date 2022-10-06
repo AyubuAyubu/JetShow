@@ -10,7 +10,7 @@ function AppJet() {
 
   // making the not interested button to remove the object
   const removeJet = (id) => {
-    // if the tour id doent match then it will be in the newtour , if it matches then that is the tour object we are removing
+    // if the jet id doent match then it will be in the newJet , if it matches then that is the tour object we are removing
     const newJet = jets.filter((jet) => jet.id !== id);
     setJet(newJet);
   };
