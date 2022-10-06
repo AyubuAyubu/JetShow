@@ -43,7 +43,7 @@ function AddJetForm() {
       image: image,
       price: price,
     };
-    //Data send  to api using POST method
+    //POST method created
     fetch(jetAPI, {
       method: "POST",
       headers: {
