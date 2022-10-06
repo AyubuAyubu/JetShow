@@ -35,7 +35,7 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 765px){
     display: block;
     position: absolute;
     top:4%;
