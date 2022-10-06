@@ -38,12 +38,12 @@ function AppJet() {
       </main>
     );
   }
-  // condition for refreshing the objects after they have been removed
+  // Conditional refreshing the objects after they have been removed
   if (jets.length === 0) {
     return (
       <main>
         <div className="title">
-          <h2>no jets left</h2>
+          <h2>no jet left</h2>
           <div className="underline"></div>
           <button className="btn" onClick={fetchJets}>
             refresh
