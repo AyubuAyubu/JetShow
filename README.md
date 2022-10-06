@@ -35,10 +35,19 @@ Open [http://localhost:3002/jets]
 
 ### `Jet001 navigation system`
 As user
+## `STEP 1`
 1.You can be able to navigate through the navigation button
 Home,ADD JET and OUR JET
+
+## `STEP 2`
 2.You should be able to add new jet through the form which is in ADD JET navigation
+
+## `STEP 3`
 3.View list of all jets in the json server populate with their respective image,name,price and description
+
+## `STEP 4`
 4.You should be able to clear the jet which you do not like by clicking not interested button and will be removed in the list
+
+## `STEP 5`
 5.Incase you remove all jet then you have ability to refresh and the database will will be refresh and display the data again
 
