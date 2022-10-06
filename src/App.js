@@ -6,6 +6,7 @@ import AddJet from "./pages/AddJet";
 import OurJet from "./pages/OurJet"
 import NotFound from "./components/NotFound";
 
+//Using Routes and Route for navigation 
 function App() {
   return (
     <>
