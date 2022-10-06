@@ -13,7 +13,7 @@ const Home = () => {
           padding: "80px",
         }}
       >
-        <h1>JETSHOW COMPANY</h1>
+        <h1>JET001 COMPANY</h1>
       </div>
     </>
   );
