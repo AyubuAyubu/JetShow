@@ -4,7 +4,6 @@ import "../styles/jetform.css"
 const jetAPI = "http://localhost:3002/jets";
 
 function AddJetForm() {
-  //part1 set useState variables and methods
   const [info, setInfo] = useState("");
   const [price, setPrice] = useState("");
   const [name, setName] = useState("");
