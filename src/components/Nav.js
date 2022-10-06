@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-//import { FaBars } from "react-icons/fa";
+
 import { FaBars } from "@react-icons/all-files/fa/FaBars";
 // this is where all my navbar styling happens
 export const Nav = styled.nav`
