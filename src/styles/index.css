@@ -217,7 +217,7 @@ main {
 }
 .single-jet .delete-btn {
   display: block;
-  width: 200px;
+  width: 205px;
   margin: 1rem auto 0 auto;
   color: var(--clr-red-dark);
   letter-spacing: var(--spacing);
