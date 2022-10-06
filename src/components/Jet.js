@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// using the distructuring method/ props of the object keys
 const Jet = ({ id, image, info, price, name, removeJet }) => {
   //  working on the toggle / read more button
   const [readMore, setReadMore] = useState(false);
@@ -25,7 +24,7 @@ const Jet = ({ id, image, info, price, name, removeJet }) => {
         {/* button for each object  */}
         <button className="delete-btn" onClick={() => removeJet(id)}>
           {" "}
-          not interested
+          Not interested
         </button>
       </footer>
     </article>
