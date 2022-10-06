@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <Nav>
         <NavLink to="">
-          <h1>JetShow</h1>
+          <h1>Jet001</h1>
         </NavLink>
         <Bars />
         <NavMenu>
