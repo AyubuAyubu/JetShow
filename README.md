@@ -18,7 +18,7 @@ You may also see any lint errors in the console.
 Runs the app json-server which also our backend database.\
 Open [http://localhost:3002/jets]
 
-### `Jet001 navigation system`
+### `Jet001 Website in React Js`
 As user
 ## `STEP 1`
 1.You can be able to navigate through the navigation button
