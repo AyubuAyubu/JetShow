@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Jet = ({ id, image, info, price, name, removeJet }) => {
-  //  working on the toggle / read more button
+  
   const [readMore, setReadMore] = useState(false);
 
   return (
