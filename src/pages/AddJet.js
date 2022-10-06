@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
-import "../styles/form.css"
+import "../styles/jetform.css"
 const jetAPI = "http://localhost:3002/jets";
 
 function AddJetForm() {
@@ -59,46 +59,43 @@ function AddJetForm() {
 
   return (
     <div className="jet-form" onSubmit={handleChange}>
-      <form className="ui form">
-        <div className="inline fields">
-          <input
-            type="text"
-            name="name"
-            placeholder="Enter Jet Name"
-            value={name}
-            onChange={handleNameChange}
-            required
-          />
-          <input
-            type="number"
-            name="price"
-            placeholder="Enter Jet Price"
-            value={price}
-            onChange={handlePriceChange}
-            required
-          />
-          <input
-            type="url"
-            name="image"
-            placeholder="https://example.com"
-            pattern="https://.*"
-            size="30"
-            value={image}
-            onChange={handleImageChange}
-            required
-          />
-          <input
-            type="textarea"
-            name="info"
-            placeholder="Enter jet description"
-            value={info}
-            onChange={handleInfoChange}
-            required
-          />
-
-        </div>
-        <button className="ui button" type="submit">
-          Add Jet
+      <form>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Jet Name"
+          value={name}
+          onChange={handleNameChange}
+          required
+        />
+        <input
+          type="number"
+          name="price"
+          placeholder="Enter Jet Price"
+          value={price}
+          onChange={handlePriceChange}
+          required
+        />
+        <input
+          type="url"
+          name="image"
+          placeholder="Enter image url(https://)"
+          pattern="https://.*"
+          size="30"
+          value={image}
+          onChange={handleImageChange}
+          required
+        />
+        <input
+          type="textarea"
+          name="info"
+          placeholder="Enter jet description"
+          value={info}
+          onChange={handleInfoChange}
+          required
+        />
+        <button className="btnn" type="submit">
+          ADD JET
         </button>
       </form>
     </div>

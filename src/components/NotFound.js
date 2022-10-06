@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-const Home = () => {
+const NotFound = () => {
   return (
     <>
       <div
@@ -9,14 +9,14 @@ const Home = () => {
           justifyContent: "center",
           alignItems: "center",
           height: "80vh",
-          fontSize:"10px",
+          fontSize: "10px",
           padding: "80px",
         }}
       >
-        <h1>JETSHOW COMPANY</h1>
+        <h1>Page NotFound 404</h1>
       </div>
     </>
   );
 };
 
-export default Home;
+export default NotFound;

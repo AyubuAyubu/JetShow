@@ -11,16 +11,13 @@ const Header = () => {
         <Bars />
         <NavMenu>
           <NavLink to="/" activeStyle>
-            Home
-          </NavLink>
-          <NavLink to="/about" activeStyle>
-            About
+            HOME
           </NavLink>
           <NavLink to="/addjet" activeStyle>
-            Add Jet
+            ADD JET
           </NavLink>
           <NavLink to="/ourjet" activeStyle>
-            Our Jet
+            OUR JET
           </NavLink>
         </NavMenu>
       </Nav>

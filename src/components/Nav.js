@@ -19,10 +19,10 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 4rem;
   margin-left: 5%;
   // margin-right: -20%;
-  height: 80%;
+  height: 100%;
   cursor: pointer;
 
   &.active {
