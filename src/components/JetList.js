@@ -1,5 +1,6 @@
 import React from "react";
 import Jet from "./Jet";
+//Jet is imported and destruction is done
 const Jets = ({ jets, removeJet }) => {
   return (
     <section>
