@@ -32,7 +32,7 @@ function AddJetForm() {
   2.create an event handler to send the data to the API once
    the form is submitted*/
 
-  //value capturing
+  //handleChange method created
   const handleChange = (event) => {
     event.preventDefault();
 
